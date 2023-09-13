@@ -1,0 +1,9 @@
+package stringBufferPrograms1;
+
+public class VowelCharactersAsaString 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

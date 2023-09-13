@@ -1,0 +1,9 @@
+package userDefinedExceptionExamples2;
+
+public class CountOfPrimeDigitInArrayIsPrime 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

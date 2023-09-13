@@ -1,0 +1,16 @@
+package striingToAnyTypePrograms;
+
+public class ReverseDoublevalue 
+{
+	public static void main(String[] args) 
+	{
+		double num = 1234.567; 
+		double reversed = 0;
+	    for(;num != 0; num /= 10) 
+	    {
+	    	double digit = num % 10;
+	    	reversed = reversed * 10 + digit;
+	    }
+	    System.out.println("Reversed Number: " + reversed);
+	}
+}

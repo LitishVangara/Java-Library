@@ -1,0 +1,8 @@
+package earlyBinding5;
+
+public class Air {
+	public void gas()
+	{
+		System.out.println("Insert Nitrogen Gas into the tyre to use.");
+	}
+}

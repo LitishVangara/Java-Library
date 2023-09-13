@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\Iterable\Collection\Set\TreeSet\.metadata\.plugins\org.eclipse.jdt.core
+433819904.index
+35317156.index
+1865797976.index

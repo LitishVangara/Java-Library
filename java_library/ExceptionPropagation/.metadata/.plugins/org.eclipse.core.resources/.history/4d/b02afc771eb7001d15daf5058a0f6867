@@ -1,0 +1,5 @@
+package unCheckedExceptionPrograms;
+
+public class ExceptionPropagationExample1 {
+
+}

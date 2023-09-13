@@ -1,0 +1,40 @@
+package characterClassPrograms1;
+
+import java.util.Scanner;
+
+public class DigitsArePresentInStringArePalindrome 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter the String Value : ");
+		String s = scan.next();
+		String s1 = "";
+		for (int i = 0; i < s.length(); i++) 
+		{
+			char ch = s.charAt(i);
+			if (Character.isDigit(ch))
+			{
+				s1 = s1 + s.charAt(i);
+			}
+		}
+		int n = Integer.parseInt(s1);
+		int rev = 0;
+		int ld = 0;
+		int temp = n;
+		while (n!=0) 
+		{
+			ld = n%10;
+			rev = rev * 10 + ld;
+			n = n/10;
+		}
+		if (rev == temp) 
+		{
+			System.out.println("It is a Palindrome : "+rev);
+		}
+		else
+		{
+			System.out.println("It is not a Palindrome : "+rev);
+		}
+	}
+}

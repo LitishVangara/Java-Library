@@ -1,0 +1,8 @@
+package protectedConstructorWithArgument1;
+
+public class PTCIDC {
+	public static void main(String[] args) {
+		PTCISC o1 = new PTCISC();
+		System.out.println(o1.y);
+	}
+}

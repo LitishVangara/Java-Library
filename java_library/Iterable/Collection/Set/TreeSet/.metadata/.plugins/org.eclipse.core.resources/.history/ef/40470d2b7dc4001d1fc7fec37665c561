@@ -1,0 +1,45 @@
+package treeSetPrograms2;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class DuplicateElementsInDescendingOrder 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList ll = new LinkedList();
+		ll.add(45);
+		ll.add(68);
+		ll.add(91);
+		ll.add(21);
+		ll.add(45);
+		ll.add(21);
+		duplicates(ll);
+		/*TreeSet ts = new TreeSet(lhs);
+		System.out.println(ts);
+		 Set set = new HashSet();
+	        for (Integer item : List) 
+	        {
+	            if (!set.add(item)) 
+	            {
+	                System.out.println("Duplicate Element : " + item);
+	            }
+	        }*/
+	}
+	public static void duplicates(Collection obj)
+	{
+		Object obj1 = obj;
+		Set set = new HashSet(obj);
+        for (Object item : set) 
+        {
+            if (!set.add(item)) 
+            {
+                System.out.println("Duplicate Element : " + item);
+            }
+        }
+	}
+}

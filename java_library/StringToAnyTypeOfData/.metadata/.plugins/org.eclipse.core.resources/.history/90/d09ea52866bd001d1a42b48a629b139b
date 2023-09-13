@@ -1,0 +1,15 @@
+package striingToAnyTypePrograms;
+import java.util.Scanner;
+public class ReverseDoublevalue 
+{
+	public static void main(String[] args) 
+	{
+	    Scanner scan = new Scanner(System.in); 
+	    System.out.print("Enter the Double Value : ");
+		double n = scan.nextDouble();
+		String s = Double.toString(n);
+		StringBuffer sb = new StringBuffer(s);
+		sb.reverse();
+		System.out.println("After reversing : "+sb);
+	}
+}

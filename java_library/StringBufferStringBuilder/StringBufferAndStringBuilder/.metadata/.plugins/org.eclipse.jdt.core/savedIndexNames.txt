@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\StringBufferStringBuilder\StringBufferAndStringBuilder\.metadata\.plugins\org.eclipse.jdt.core
+244104436.index
+1865797976.index
+35317156.index
+2539820890.index

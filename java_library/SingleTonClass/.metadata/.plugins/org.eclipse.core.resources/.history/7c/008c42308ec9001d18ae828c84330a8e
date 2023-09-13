@@ -1,0 +1,9 @@
+package lazyInstanstiationPrograms1;
+
+public class LazySingletonExample 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

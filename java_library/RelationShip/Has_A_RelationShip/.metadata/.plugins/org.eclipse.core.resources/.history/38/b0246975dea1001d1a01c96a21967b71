@@ -1,0 +1,7 @@
+package earlyBinding4;
+
+public class TestWatch {
+	public static void main(String[] args) {
+	
+	}
+}

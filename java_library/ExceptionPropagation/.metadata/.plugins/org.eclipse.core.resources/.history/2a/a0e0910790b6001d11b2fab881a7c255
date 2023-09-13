@@ -1,0 +1,6 @@
+package checkedExceptionPrograms;
+
+public class ThrowsMultipleException 
+{
+
+}

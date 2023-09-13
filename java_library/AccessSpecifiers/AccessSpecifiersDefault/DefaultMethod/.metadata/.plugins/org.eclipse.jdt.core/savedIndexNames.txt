@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\AccessSpecifiers\AccessSpecifiersDefault\DefaultMethod\.metadata\.plugins\org.eclipse.jdt.core
+259215886.index
+1865797976.index
+3674533306.index
+35317156.index

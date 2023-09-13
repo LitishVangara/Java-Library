@@ -1,0 +1,5 @@
+package earlyInstanstiationPrograms1;
+
+public class EarlySingletonExample {
+
+}

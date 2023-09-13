@@ -1,0 +1,33 @@
+package treeSetPrograms2;
+
+import java.util.LinkedList;
+
+public class PrimeElementsInDescendingOrder 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList ll = new LinkedList();
+		ll.add(7);
+		ll.add(3);
+		ll.add(2);
+		ll.add(17);
+		ll.add(89);
+		ll.add(17);
+		ll.add(7);
+		ll.add(20);
+		int f = (Integer) ll.get(ll.size());
+		int count = 0;
+		for (int a=1;a<=f;a++)
+		{
+			if (f%a==0)
+			{
+				count++;
+			}
+		}
+		if (count==2)
+		{
+			System.out.println("it is prime number"+f);
+		}
+		
+	}
+}

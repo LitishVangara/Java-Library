@@ -1,0 +1,21 @@
+package getMessagePrograms;
+
+public class GetMessageExampleProgram 
+{
+	int a;
+	static GetMessageExampleProgram g;
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts.");
+		try
+		{
+			System.out.println(g.a);
+		}
+		catch (NullPointerException a)
+		{
+			String msg = a.getMessage();
+			System.out.println(msg);
+		}
+		System.out.println("Main Ends.");
+	}
+}

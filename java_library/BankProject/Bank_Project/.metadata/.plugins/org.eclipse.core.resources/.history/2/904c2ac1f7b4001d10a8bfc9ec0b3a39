@@ -1,0 +1,29 @@
+package bankProject;
+
+public class BankDetails 
+{
+	/*public void details(int input)
+	{
+		if (input == 1) 
+		{
+			
+		}
+	}*/
+	public String name;
+	public int accNo;
+	public long bal;
+	public BankDetails(String name, int accNo, long bal) 
+	{
+		this.name = name;
+		this.accNo = accNo;
+		this.bal = bal;
+	}
+	public static void display()
+	{
+		System.out.println();
+		System.out.println("-----------------------------------");
+		System.out.println("Name : "+this.name);
+		System.out.println("Account Number : "+this.accNo);
+		System.out.println("Account Balance :"+this.bal);
+	}
+}

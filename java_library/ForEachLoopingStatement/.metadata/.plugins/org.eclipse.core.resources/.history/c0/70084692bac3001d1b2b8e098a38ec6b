@@ -1,0 +1,18 @@
+package forEachLoopPrograms1;
+
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public class AllFourMethods 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList ls = new LinkedList();
+		ls.add(56.6);
+		ls.add("bye");
+		ls.add(false);
+		ls.add('M');
+		ls.add(26);
+		ListIterator i = ls.listIterator();
+	}
+}

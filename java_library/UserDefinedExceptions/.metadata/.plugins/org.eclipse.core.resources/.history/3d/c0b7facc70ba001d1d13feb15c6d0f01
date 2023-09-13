@@ -1,0 +1,6 @@
+package userDefinedExceptionExamples2;
+
+public class PrimePalindromeDigitsException extends RuntimeException
+{
+	
+}

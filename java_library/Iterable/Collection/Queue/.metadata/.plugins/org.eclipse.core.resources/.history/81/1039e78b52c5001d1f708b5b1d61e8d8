@@ -1,0 +1,47 @@
+package priorityQueuePrograms1;
+
+import java.util.Iterator;
+import java.util.PriorityQueue;
+import java.util.Scanner;
+
+public class PrimeDigitElements 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Maximum value : ");
+		int m = scan.nextInt();
+		System.out.println("Enter the Minimum Value : ");
+		int n = scan.nextInt();
+		PriorityQueue p = new PriorityQueue();
+		for (int i = m; i <= n; i++) 
+		{
+			int a = i;
+			while(a!=0)
+			{
+				int digit = a%10;
+				int count = 0;
+				for (int j = 1; j <= digit; j++) 
+				{
+					if (digit%j==0) 
+					{
+						count++;
+					}
+				}
+				if (count==2) 
+				{
+					p.add(i);
+					break;
+				}
+				a/=10;
+			}
+		}
+		System.out.println("Elements from root node : ");
+		int size = p.size();
+		for (int i = 0; i < size; i++) 
+		{
+			System.out.print(p.poll()+" ");
+		}
+		System.out.println();
+	}
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\Iterable\Collection\List\ArrayList\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2998759105.index
+35317156.index

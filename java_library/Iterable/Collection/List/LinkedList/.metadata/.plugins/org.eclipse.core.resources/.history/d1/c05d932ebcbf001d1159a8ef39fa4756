@@ -1,0 +1,40 @@
+package linkedListPrograms1;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class CheckFirstAndLastEqualOrNot 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		LinkedList<Integer> ls = new LinkedList<Integer>();
+		while (true) 
+		{
+			System.out.println("Enter the Value : ");
+			System.out.println("---------------------------");
+			ls.add(scan.nextInt());
+			System.out.println("Enter 'y' to continue or 'n' for stop.");
+			String s = scan.next();
+			if (s.equalsIgnoreCase("y")) 
+			{
+				continue;
+			}
+			else
+			{
+				break;
+			}
+		}
+		System.out.println("Enter the Element to Search.");
+		int value = scan.nextInt();
+		System.out.println("Elements are : "+ls);
+		if (ls.contains(value)) 
+		{
+			ls.set(ls.indexOf(value), (value+10));
+		}
+		else
+		{
+			ls.add(value);
+		}
+		System.out.println("After Modification : "+ls);
+	}
+}

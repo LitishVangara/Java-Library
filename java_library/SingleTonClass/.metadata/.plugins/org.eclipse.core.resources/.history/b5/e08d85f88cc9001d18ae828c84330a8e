@@ -1,0 +1,5 @@
+package lazyInstanstiationPrograms1;
+
+public class LazySingletonExample {
+
+}

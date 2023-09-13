@@ -1,0 +1,6 @@
+package exceptionPropagationExamples;
+
+public class ExceptionPropagationNullAndArray 
+{
+	
+}

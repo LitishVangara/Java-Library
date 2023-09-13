@@ -1,0 +1,10 @@
+package publicConstructorWithoutArgument1;
+
+public class PCISC1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

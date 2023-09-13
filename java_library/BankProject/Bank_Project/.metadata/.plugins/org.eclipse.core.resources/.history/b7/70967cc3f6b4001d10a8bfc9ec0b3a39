@@ -1,0 +1,12 @@
+package bankProject;
+
+public class BankDetails 
+{
+	public void details(int input)
+	{
+		if (input == 1) 
+		{
+			
+		}
+	}
+}

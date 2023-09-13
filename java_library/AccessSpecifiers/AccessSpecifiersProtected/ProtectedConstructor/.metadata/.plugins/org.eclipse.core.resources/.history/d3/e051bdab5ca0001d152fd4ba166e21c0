@@ -1,0 +1,10 @@
+package protectedConstructorWithArgument1;
+
+public class PTCISC {
+	public int y;
+	public PTCISC() {}
+	public PTCISC(int y)
+	{
+		this.y = y;
+	}
+}

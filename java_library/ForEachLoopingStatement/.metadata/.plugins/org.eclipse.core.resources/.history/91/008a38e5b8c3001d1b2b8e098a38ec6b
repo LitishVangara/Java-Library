@@ -1,0 +1,9 @@
+package forEachLoopPrograms1;
+
+public class ForEachLoopExample 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

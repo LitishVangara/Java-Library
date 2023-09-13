@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PRVISC.java&apos; to &apos;PrivateNonStaticVariable/src/privateNonStaticVariable&apos;&#x0D;&#x0A;- Original project: &apos;PrivateStaticVariable&apos;&#x0D;&#x0A;- Destination element: &apos;PrivateNonStaticVariable/src/privateNonStaticVariable&apos;&#x0D;&#x0A;- Original element: &apos;privateStaticVariable.PRVISC.java&apos;" description="Copy compilation unit" destination="=PrivateNonStaticVariable/src&lt;privateNonStaticVariable" element1="/src&lt;privateStaticVariable{PRVISC.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1675056057179" units="1" version="1.0"/>
+</session>

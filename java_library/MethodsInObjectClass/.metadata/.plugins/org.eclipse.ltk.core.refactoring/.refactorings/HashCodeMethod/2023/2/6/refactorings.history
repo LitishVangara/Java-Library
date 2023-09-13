@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;HashCodeMethod/src/overrideObjectClasshashCodeMethod4&apos;&#x0D;&#x0A;- Original project: &apos;HashCodeMethod&apos;&#x0D;&#x0A;- Destination element: &apos;HashCodeMethod/src/overrideObjectClasshashCodeMethod4&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     overrideObjectClasshashCodeMethod1.Bank.java&#x0D;&#x0A;     overrideObjectClasshashCodeMethod1.BankDetails.java" description="Copy compilation units" destination="/src&lt;overrideObjectClasshashCodeMethod4" element1="/src&lt;overrideObjectClasshashCodeMethod1{Bank.java" element2="/src&lt;overrideObjectClasshashCodeMethod1{BankDetails.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1675912269931" units="2" version="1.0"/>
+</session>

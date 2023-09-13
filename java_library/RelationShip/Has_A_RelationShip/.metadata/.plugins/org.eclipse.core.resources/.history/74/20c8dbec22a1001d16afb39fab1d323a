@@ -1,0 +1,15 @@
+package earlyBinding4;
+
+public class Lock {
+	public int locks;
+	public Lock() {}
+	public Lock(int locks)
+	{
+		this.locks = locks;
+	}
+	Key k1 = new Key();
+	public void open()
+	{
+		System.out.println("Open the Lock....");
+	}
+}

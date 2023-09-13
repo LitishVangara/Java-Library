@@ -1,0 +1,21 @@
+package exceptionPropagationExamples;
+
+public class ExceptionPropagationNullAndArray 
+{
+	static ExceptionPropagationNullAndArray e;
+	int a;
+	public static void eP()
+	{
+		System.out.println("Execution Starts : ");
+		System.out.println(e);
+		System.out.println(e.a);
+		System.out.println("Execution Ends : ");
+	}
+	public static void main(String[] args) 
+	{
+
+		int a[] = {10, 20, 30, 50};
+		eP();
+		System.out.println(a[10]);
+	}
+}

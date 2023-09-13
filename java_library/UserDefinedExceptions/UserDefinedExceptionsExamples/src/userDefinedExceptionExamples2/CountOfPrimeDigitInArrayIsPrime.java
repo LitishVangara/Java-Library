@@ -1,0 +1,63 @@
+package userDefinedExceptionExamples2;
+
+public class CountOfPrimeDigitInArrayIsPrime 
+{
+	public static int countDigit(int num1)
+	{
+		int count = 0;
+		int num2 = num1;
+		int temp = num1;
+		while (temp != 0) 
+		{
+			int d = temp % 10;
+			temp /= 10;
+			if (d == 2 || d == 3 || d == 5 || d == 7)
+			{
+				count++;
+			}
+		}
+		return count;
+	}
+	public static void primeOrNot(int num)
+	{
+		int num1 = num;
+		int count1 =0;
+		for (int a=1;a<=num1;a++)
+		{
+			if (num1%a==0)
+			{
+				count1++;
+			}
+		}
+		if (count1==2)
+		{
+			System.out.println("The count of Prime Digits in an Array is Prime Number : "+num);
+		}
+		else
+		{
+			throw new PrimeNumberException(1);
+		}
+	}
+	public static void main (String[] args)
+	{
+        int n[] = {12, 3453, 678, 90};
+        int num = 0;
+        int primeDigit = 0;
+        for (int i = 0; i<n.length; i++)
+        {
+        	num = n[i];
+        	primeDigit = primeDigit + countDigit(num);
+        }
+        int primeDigit1 = primeDigit;
+        try
+        {
+        	primeOrNot(primeDigit1);
+	    }
+        catch (PrimeNumberException a)
+        {
+        	System.out.println(a.getMessage());
+        	System.out.println(a.printMessage());
+        	a.printStackTrace();
+        }
+	}
+}

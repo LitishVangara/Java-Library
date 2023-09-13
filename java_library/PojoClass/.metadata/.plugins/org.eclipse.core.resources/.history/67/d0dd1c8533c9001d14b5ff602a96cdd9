@@ -1,0 +1,20 @@
+package pojoClassPrograms1;
+
+public class Student {
+	public String name;
+	public int id;
+	public int degree;
+	public Student () {}
+	public Student(String name, int id, int degree) 
+	{
+		this.name = name;
+		this.id = id;
+		this.degree = degree;
+	}
+	public String toString()
+	{
+		String res = "Name of the Student : "+this.name+", his Id : "+this.id;
+		return res;
+	}
+	
+}

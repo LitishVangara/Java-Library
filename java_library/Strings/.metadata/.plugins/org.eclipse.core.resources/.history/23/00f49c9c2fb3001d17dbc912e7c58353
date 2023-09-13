@@ -1,0 +1,9 @@
+package stringLiteralPrograms1;
+
+public class ConcatInStringLiteral 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

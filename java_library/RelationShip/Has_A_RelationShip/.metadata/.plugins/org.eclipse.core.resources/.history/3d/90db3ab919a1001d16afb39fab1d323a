@@ -1,0 +1,10 @@
+package earlyBinding3;
+
+public class Library {
+	public int books;
+	public Library() {}
+	public Library(int books)
+	{
+		this.books = books;
+	}
+}

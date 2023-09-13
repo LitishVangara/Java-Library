@@ -1,0 +1,9 @@
+package characterClassPrograms1;
+
+public class DigitsArePresentInStringArePalindrome 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

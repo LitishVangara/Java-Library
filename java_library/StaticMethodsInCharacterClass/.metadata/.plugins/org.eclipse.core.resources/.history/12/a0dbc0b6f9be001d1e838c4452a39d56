@@ -1,0 +1,163 @@
+package characterClassPrograms1;
+import java.util.Scanner;
+public class CountWordValidation 
+{
+	public static void count(String word)
+	{
+		String word1 = word;
+		char[] ch = word1.toCharArray();
+		int alphabets = 0;
+		int numbers = 0;
+		int spaces = 0;
+		int specialCharacters = 0;
+		int others = 0;
+		for(int i = 0; i < word1.length(); i++)
+		{
+			if(Character.isLetter(ch[i]))
+			{
+				alphabets++ ;
+			}
+			else if(Character.isDigit(ch[i]))
+			{
+				numbers++ ;
+			}
+			else if(Character.isSpaceChar(ch[i]))
+			{
+				spaces++ ;
+			}
+			else if((word1.contains("@") || word1.contains("#")
+			           || word1.contains("!") || word1.contains("~")
+			           || word1.contains("$") || word1.contains("%")
+			           || word1.contains("^") || word1.contains("&")
+			           || word1.contains("*") || word1.contains("(")
+		               || word1.contains(")") || word1.contains("-")
+			           || word1.contains("+") || word1.contains("/")
+			           || word1.contains(":") || word1.contains(".")
+			           || word1.contains(", ") || word1.contains("<")
+			           || word1.contains(">") || word1.contains("?")
+			           || word1.contains("|")))
+			{
+				specialCharacters++;
+			}
+			else
+			{
+				others++;
+			}
+		}
+		System.out.println("Alphabets : "+alphabets);
+		System.out.println("Spaces : "+spaces);
+		System.out.println("Numbers : "+numbers);
+		System.out.println("SpecialCharacters : "+specialCharacters);
+		System.out.println("Others : "+others);
+	}
+		/*int count1 = 0;
+		if (word1.contains(" ")) 
+        {
+        	count1++;
+        }
+		for (int i = 0; i < word.length(); i++) 
+		{
+	        if (word.contains(" ")) 
+	        {
+	        	count1++;
+	        }
+		}
+		return count1;
+	}
+	public static int isValid(String password)
+	    {
+	        // for checking if password length
+	        // is between 8 and 15
+		int count5 = 0;
+	        if (password.contains(" ")) 
+	        {
+	        	count5++;
+	            //count5 = count5+count5;
+	        }
+	        if (true) 
+	        {
+	            int count = 0;
+	            // check digits from 0 to 9
+	            for (int i = 0; i <= 9; i++) 
+	            {
+	                // to convert int to string
+	                String str1 = Integer.toString(i);
+	                if (password.contains(str1)) 
+	                {
+	                    count = 1;
+	                }
+	            }
+	            if (count == 1) 
+	            {
+	            	count5++;
+	            }
+	        }
+	        // for special characters
+	        if ((password.contains("@") || password.contains("#")
+	           || password.contains("!") || password.contains("~")
+	           || password.contains("$") || password.contains("%")
+	           || password.contains("^") || password.contains("&")
+	           || password.contains("*") || password.contains("(")
+               || password.contains(")") || password.contains("-")
+	           || password.contains("+") || password.contains("/")
+	           || password.contains(":") || password.contains(".")
+	           || password.contains(", ") || password.contains("<")
+	           || password.contains(">") || password.contains("?")
+	           || password.contains("|"))) 
+	        {
+	        	count5++;
+	        }
+	        if (true) 
+	        {
+	            int count = 0;
+	            // checking capital letters
+	            for (int i = 65; i <= 90; i++) 
+	            {
+	                // type casting
+	                char c = (char)i;
+	                String str1 = Character.toString(c);
+	                if (password.contains(str1)) 
+	                {
+	                    count = 1;
+	                }
+	            }
+	            if (count == 1) 
+	            {
+	            	count5++;
+	            }
+	        }
+	        if (true) 
+	        {
+	            int count = 0;
+	            // checking small letters
+	            for (int i = 90; i <= 122; i++) 
+	            {
+	                // type casting
+	                char c = (char)i;
+	                String str1 = Character.toString(c);
+	                if (password.contains(str1)) 
+	                {
+	                    count = 1;
+	                }
+	            }
+	            if (count == 1) 
+	            {
+	            	count5++;
+	            }
+	        }
+	        return count5;
+	        // The password is valid
+	    }
+	    // Driver code*/
+	
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter the word to Count : ");
+		System.out.println("--------------------------------------------------------------");
+		String wordValidator = scan.next();
+		System.out.println("--------------------------------------------------------------");
+		count(wordValidator);
+		System.out.println("**************************************************************");
+	}
+}

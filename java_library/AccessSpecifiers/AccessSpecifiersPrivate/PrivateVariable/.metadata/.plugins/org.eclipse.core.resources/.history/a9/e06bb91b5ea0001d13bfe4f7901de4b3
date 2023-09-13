@@ -1,0 +1,10 @@
+package privateNonStaticVariable;
+
+public class PRVISC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

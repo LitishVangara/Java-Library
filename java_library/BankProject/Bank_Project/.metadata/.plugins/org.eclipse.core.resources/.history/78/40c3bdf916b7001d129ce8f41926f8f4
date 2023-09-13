@@ -1,0 +1,17 @@
+package bankProject;
+import java.util.Scanner;
+
+public class Bank 
+{
+	static Scanner scan = new Scanner (System.in);
+	public String name;
+	public int accNo;
+	public long bal;
+	public Bank () {}
+	public Bank (String name, int accNo, long bal) 
+	{
+		this.name = name;
+		this.accNo = accNo;
+		this.bal = bal;
+	}
+}

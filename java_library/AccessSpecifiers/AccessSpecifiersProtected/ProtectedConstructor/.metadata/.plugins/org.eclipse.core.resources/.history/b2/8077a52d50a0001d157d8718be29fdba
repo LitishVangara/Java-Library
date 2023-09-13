@@ -1,0 +1,9 @@
+package protectedConstructorWithoutArgument1;
+
+public class PTCISC {
+	protected PTCISC() {}
+	protected PTCISC()
+	{
+		System.out.println("Hello,Hai");
+	}
+}

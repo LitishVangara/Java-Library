@@ -1,0 +1,6 @@
+package systemClassMethods;
+public class LinesSeparator {
+	public static void main(String[] args) {
+		System.out.println("Vangara"+System.lineSeparator()+"Litish");
+	}
+}

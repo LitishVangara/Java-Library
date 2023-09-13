@@ -1,0 +1,13 @@
+package rangeDataTypes;
+
+public class RangeOfDataTypes {
+	public static void main(String[] args) {
+		System.out.println(Boolean.getBoolean(null));
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+	}
+}

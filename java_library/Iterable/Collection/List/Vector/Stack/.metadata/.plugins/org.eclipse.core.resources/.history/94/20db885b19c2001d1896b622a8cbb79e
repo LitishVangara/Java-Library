@@ -1,0 +1,13 @@
+package stackPrograms1;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class SearchElementInStack 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		Stack s = new Stack();
+	}
+}

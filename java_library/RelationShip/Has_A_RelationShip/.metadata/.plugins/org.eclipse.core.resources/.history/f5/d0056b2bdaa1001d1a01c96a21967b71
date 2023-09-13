@@ -1,0 +1,10 @@
+package lazyBinding3;
+
+public class UseMobile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

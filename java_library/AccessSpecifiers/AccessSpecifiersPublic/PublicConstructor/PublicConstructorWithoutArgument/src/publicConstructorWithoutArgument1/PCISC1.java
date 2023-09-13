@@ -1,0 +1,12 @@
+package publicConstructorWithoutArgument1;
+public class PCISC1 {
+	public PCISC1()
+	{
+		System.out.println("Hello,Hai");
+	}
+	public static void main(String[] args) {
+		PCISC1 o1 = new PCISC1();
+
+	}
+
+}

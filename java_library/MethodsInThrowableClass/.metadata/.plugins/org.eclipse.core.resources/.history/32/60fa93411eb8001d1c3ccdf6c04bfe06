@@ -1,0 +1,27 @@
+package getMessagePrograms;
+
+public class GetMessageExampleProgram 
+{
+	int a;
+	static GetMessageExampleProgram g;
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts.");
+		try
+		{
+			System.out.println(g.a);
+			System.out.println(100/0);
+		}
+		catch (NullPointerException a)
+		{
+			String msg = a.getMessage();
+			System.err.println(msg);
+		}
+		catch (ArithmeticException b)
+		{
+			String msg1 = b.getMessage();
+			System.out.println(msg1);
+		}
+		System.out.println("Main Ends.");
+	}
+}

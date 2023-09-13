@@ -1,0 +1,33 @@
+package treeSetPrograms2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class SortPalindromeString 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList al = new ArrayList();
+		al.add("mom");
+		al.add("hello");
+		al.add("dad");
+		al.add("jspiders");
+		al.add("jntu");
+		System.out.println("Elements are : "+al);
+		Iterator i = al.iterator();
+		ArrayList al1 = new ArrayList();
+		while (i.hasNext()) 
+		{
+			String s = (String) i.next();
+			StringBuffer sb = new StringBuffer(s);
+			String rev = sb.reverse().toString();
+			if (s.equalsIgnoreCase(rev)) 
+			{
+				al1.add(rev);
+			}
+		}
+		TreeSet ts = new TreeSet(al1);
+		System.out.println("Sorted Palindrome Strings are : "ts);
+	}
+}

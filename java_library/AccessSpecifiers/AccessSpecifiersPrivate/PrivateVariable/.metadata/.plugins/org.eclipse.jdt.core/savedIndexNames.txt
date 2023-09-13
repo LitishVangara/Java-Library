@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\AccessSpecifiers\AccessSpecifiersPrivate\PrivateVariable\.metadata\.plugins\org.eclipse.jdt.core
+1160484684.index
+1865797976.index
+2888038771.index
+35317156.index

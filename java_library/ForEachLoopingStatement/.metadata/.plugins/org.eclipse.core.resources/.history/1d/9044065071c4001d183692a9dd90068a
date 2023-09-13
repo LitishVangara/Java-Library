@@ -1,0 +1,40 @@
+package forEachLoopPrograms1;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public class AllFourMethods 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList ls = new LinkedList();
+		ls.add(56.6);
+		ls.add("bye");
+		ls.add(false);
+		ls.add('M');
+		ls.add(26);
+		Iterator i = ls.iterator();
+		ListIterator li = ls.listIterator();
+		ListIterator lir = ls.listIterator(ls.size());
+		while (i.hasNext()) 
+		{
+			System.out.println(i.next());
+		}
+		System.out.println();
+		while (li.hasNext()) 
+		{
+			System.out.println(li.next());
+		}
+		System.out.println();
+		while (lir.hasPrevious()) 
+		{
+			System.out.println(lir.previous());
+		}
+		System.out.println();
+		for (Object obj : ls)
+		{
+			System.out.println(obj);
+		}
+	}
+}

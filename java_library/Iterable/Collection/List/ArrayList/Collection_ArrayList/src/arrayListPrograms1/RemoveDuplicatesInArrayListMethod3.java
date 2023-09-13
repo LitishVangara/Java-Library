@@ -1,0 +1,27 @@
+package arrayListPrograms1;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class RemoveDuplicatesInArrayListMethod3 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList al = new ArrayList();
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		al.add(10);
+		al.add(50);
+		System.out.println("Before Removing Duplicates : "+al);
+		Collections.sort(al);
+		for(int i=1;i<al.size();i++)
+		{
+			if(al.get(i)==al.get(i-1))
+			{
+				i=i-1;
+				al.remove(i);
+			}
+		}
+		System.out.println("After Removing Duplicates : "+al);
+	}
+}

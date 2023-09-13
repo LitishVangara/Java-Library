@@ -1,0 +1,42 @@
+package treeSetPrograms2;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedList;
+
+public class PrimeElementsInDescendingOrder 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList ll = new LinkedList();
+		ll.add(7);
+		ll.add(3);
+		ll.add(2);
+		ll.add(17);
+		ll.add(89);
+		ll.add(17);
+		ll.add(7);
+		ll.add(20);
+		LinkedList ll1 = new LinkedList();
+		for (int i = 0; i < ll.size(); i++) 
+		{
+			int f = (int) ll.get(i);
+			int count = 0;
+			for (int a=1;a<=f;a++)
+			{
+				if (f%a==0)
+				{
+					count++;
+				}
+			}
+			if (count==2)
+			{
+				ll1.add(f);
+			}
+		}
+		HashSet hs = new HashSet(ll1);
+		LinkedList ll2 = new LinkedList(hs);
+		Collections.sort(ll2,Collections.reverseOrder());
+        System.out.println(ll2);
+	}
+}

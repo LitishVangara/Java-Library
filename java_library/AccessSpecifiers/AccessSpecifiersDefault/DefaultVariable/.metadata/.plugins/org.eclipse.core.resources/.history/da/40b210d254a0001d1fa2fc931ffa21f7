@@ -1,0 +1,10 @@
+package defaultStaticVariable1;
+
+public class DVISC1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

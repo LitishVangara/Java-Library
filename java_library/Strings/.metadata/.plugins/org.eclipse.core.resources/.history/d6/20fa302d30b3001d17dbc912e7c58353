@@ -1,0 +1,9 @@
+package stringNewOperatorPrograms1;
+
+public class NewOperatorString 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

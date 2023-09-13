@@ -1,0 +1,18 @@
+package striingToAnyTypePrograms;
+
+import java.util.Scanner;
+
+public class SwapFirstAndSecondHalf 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter the Integer Value : ");
+		int num = scan.nextInt();
+		String s = Integer.toString(num);
+		String s1 = s.substring(0,(s.length()/2));
+		String s2 = s.substring((s.length()/2));
+		int a = Integer.parseInt(s2+s1);
+		System.out.println(a);
+	}
+}

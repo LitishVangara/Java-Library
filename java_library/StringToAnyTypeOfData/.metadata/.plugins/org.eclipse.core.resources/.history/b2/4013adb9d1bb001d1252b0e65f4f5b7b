@@ -1,0 +1,34 @@
+package striingToAnyTypePrograms;
+import java.util.Scanner;
+public class ReverseDoublevalue 
+{
+	public static void main(String[] args) 
+	{
+		/*double num = 1234.567; 
+		double reversed = 0;
+	    for(;num != 0; num /= 10) 
+	    {
+	    	double digit = num % 10;
+	    	reversed = reversed * 10 + digit;
+	    }
+	    System.out.println("Reversed Number: " + reversed);
+	    double d = 0, Result = 0;
+	    Scanner in = new Scanner(System.in); 
+	    System.out.print("enter a number: ");
+	    //d = Double.parseDouble(in.nextLine()); 
+	    //^ That will not cut off any result lol
+	    d = in.nextDouble(); 
+	    while(d > 0)
+	    { 
+	    	Result = (Result * 10) + d % 10; 
+	    	d = d / 10;
+	    } 
+	    System.out.println("The Reversed Number Is: " + Result);  */
+		double n = 123.2;
+		String s = Double.toString(n);
+		System.out.println(s.indexOf(1));
+		StringBuffer sb = new StringBuffer(s);
+		sb.reverse();
+		System.out.println("After reversing : "+sb);
+	}
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\MethodsInScannerClass\.metadata\.plugins\org.eclipse.jdt.core
+2772635081.index
+35317156.index
+1865797976.index

@@ -1,0 +1,13 @@
+package printStackTracePrograms;
+import java.sql.*;
+public class PrintStackTraceExampleProgram 
+{
+	public static void check() throws SQLException
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+}

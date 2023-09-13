@@ -1,0 +1,84 @@
+package userDefinedExceptionExamples2;
+import java.util.Scanner;
+
+public class PrimePalindromeDigits 
+{
+	public static void primePalindromeDigits(int num) throws PrimePalindromeDigitsException
+	{
+		int temp=num;
+		int num1 = num;
+		int num2 = num;
+		int ld = 0;
+		int reverse = 0;
+		while (temp!=0)
+		{
+			ld = temp%10;
+			reverse = reverse*10+ld;
+			temp = temp/10;
+		}
+		if (num==reverse)
+		{
+			System.out.println(num+" is a palindrome");
+		}
+		else
+		{
+			throw new PrimePalindromeDigitsException(1);
+		}
+		int count =0;
+	    for (int i=1;i<=num1;i++)
+	    {
+			if (num1%i==0)
+			{ 
+				count++;
+			}
+		}
+		if (count==2)
+		{
+			System.out.println(num+" is a prime number");
+		}
+		else
+		{
+			throw new PrimePalindromeDigitsException(2);
+		}
+		int count1 = 0;
+		while (num2!=0)
+		{
+			int reverse1 = 0;
+			int ld1 = num2%10;
+			reverse1 = reverse1*10+ld1;
+			for (int j=1;j<=reverse1;j++)
+			{
+				if (reverse1%j==0)
+				{   
+					count1++;
+				}
+			}
+			num2 = num2/10;
+		}
+		if (count1==2)
+		{
+			System.out.println("The digits are also Prime in Number : "+num);
+		}
+		else
+		{
+			throw new PrimePalindromeDigitsException(3);
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter Number to check Prime Palindrome Digit or Not : ");
+		int num = scan.nextInt();
+		int n = num;
+		try
+		{
+			primePalindromeDigits(n);
+		}
+		catch (PrimePalindromeDigitsException a)
+		{
+			System.out.println(a.getMessage());
+			System.out.println(a.printMessage());
+			a.printStackTrace();
+		}
+	}
+}

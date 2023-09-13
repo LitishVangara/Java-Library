@@ -1,0 +1,10 @@
+package lazyBinding3;
+
+public class Buildings {
+	Paints p1;
+	public void buildingColours()
+	{
+		p1 = new Paints();
+		System.out.println("Mostly AsianPaints is used to paint the Bulidings.");
+	}
+}

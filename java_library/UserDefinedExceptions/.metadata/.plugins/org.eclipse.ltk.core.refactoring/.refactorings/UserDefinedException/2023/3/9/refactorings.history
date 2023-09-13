@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LengthException.java&apos; to &apos;UserDefinedExceptionsExamples/src/userDefinedExceptionExamples&apos;&#x0D;&#x0A;- Original project: &apos;UserDefinedException&apos;&#x0D;&#x0A;- Destination element: &apos;UserDefinedExceptionsExamples/src/userDefinedExceptionExamples&apos;&#x0D;&#x0A;- Original element: &apos;userDefinedExceptionExamples2.LengthException.java&apos;" description="Copy compilation unit" destination="=UserDefinedExceptionsExamples/src&lt;userDefinedExceptionExamples" element1="/src&lt;userDefinedExceptionExamples2{LengthException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677645401483" units="1" version="1.0"/>
+</session>

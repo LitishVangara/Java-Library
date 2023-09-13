@@ -1,0 +1,108 @@
+package userDefinedExceptionExamples2;
+//import java.util.*;
+public class CountOfPrimeDigitInArrayIsPrime 
+{
+	/*public static void main(String[] args) 
+	{
+		int []arr = {45, 23, 5};
+		
+	}
+	private static int countPrimeNumbers(List<Integer> list) {
+	    int count = 0;
+	    for (int i : list) {
+	        if (isPrime(i)) {
+	            count += 1;
+	        }
+	    }
+	    return count;
+	}
+
+	// FYI... logic to find prime number can further be optimised, i will leave it upto you
+	private static boolean isPrime(int number) {
+	    for(int i = 2; i < number; i++) {
+	        if(number % i == 0) {
+	            return false;
+	        }
+	    }
+	    return true;
+	}
+
+	public static void main(String args[]) {
+	    Integer[] numbers = {2, 3, 5, 6, 10, 11, 13, 27};
+	    List<Integer> list = Arrays.asList(numbers);
+
+	    int result = countPrimeNumbers(list);
+
+	    System.out.println("Number of prime numbers = " + result);
+	}*/
+
+	    public static int countDigit(int num1)
+	    {
+	    	int count = 0;
+	        int num2 = num1;
+	        int temp = num1;
+	        // int temp= a[i];
+	            //int temp1 = a[i];
+	            // Loop to compute all the digits
+	            // of the number
+	            while (temp != 0) 
+	            {
+	            	// Finding every digit of the
+	            	// given number
+	            	int d = temp % 10;
+	            	temp /= 10;
+	            	// Checking if digit is prime or not
+	            	// Only 2, 3, 5 and 7 are prime
+	            	// one-digit number
+	            	if (d == 2 || d == 3 || d == 5 || d == 7)
+	            	{
+	            		count++;
+	            	}
+	            }
+	        
+	         return count;
+	    }
+	    public static void primeOrNot(int num)
+	    {
+	        int num1 = num;
+	        int count1 =0;
+			for (int a=1;a<=num1;a++)
+			{
+				if (num1%a==0)
+				{
+					count1++;
+				}
+			}
+			if (count1==2)
+			{
+				System.out.println("The count of Prime Digits in an Array is Prime Number : "+num);
+			}
+			else
+		    {
+				throw new PrimeNumberException(1);
+		    }
+	    }
+	    public static void main (String[] args)
+	    {
+	        int n[] = {12, 3453, 678, 90};
+	        int num = 0;
+	        int primeDigit = 0;
+	        for (int i = 0; i<=n.length-1; i++)
+	        {
+	        	num = n[i];
+	        	primeDigit = countDigit(num);
+	        }
+	        //countDigit(n[]);
+	        primeDigit = countDigit(num);
+	        try
+	        {
+	            primeOrNot(primeDigit);
+	        }
+	        catch (PrimeNumberException a)
+	        {
+	            System.out.println(a.getMessage());
+	            System.out.println(a.printMessage());
+	            a.printStackTrace();
+	        }
+	    }
+}

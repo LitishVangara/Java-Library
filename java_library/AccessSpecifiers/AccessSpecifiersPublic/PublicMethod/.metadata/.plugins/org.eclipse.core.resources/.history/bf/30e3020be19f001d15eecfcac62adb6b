@@ -1,0 +1,7 @@
+package publicNonStaticMethod1;
+
+public class PMIDC {
+	PMISC o1 = new PMISC();
+	
+
+}

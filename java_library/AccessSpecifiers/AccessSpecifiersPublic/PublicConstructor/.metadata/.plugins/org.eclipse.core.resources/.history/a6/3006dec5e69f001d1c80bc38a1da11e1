@@ -1,0 +1,10 @@
+package publicConstructorWithArgument2;
+
+import publicConstructorWithArgument1.PCISC1;
+
+public class PCIDPDC {
+	public static void main(String[] args) {
+		PCISC1 o1 = new PCISC1();
+		System.out.println(o1.x);
+	}
+}

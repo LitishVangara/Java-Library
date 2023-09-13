@@ -1,0 +1,9 @@
+package characterClassPrograms1;
+
+public class SummationOfDigitInString 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

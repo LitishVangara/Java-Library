@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ext.calculatorBasic.MySpecialButton"/>
+    <fullyQualifiedTypeName name="ext.calculatorBasic.MyMemoryButton"/>
+    <fullyQualifiedTypeName name="ext.calculatorBasic.MyOperatorButton"/>
+    <fullyQualifiedTypeName name="ext.calculatorBasic.MyDigitButton"/>
+</qualifiedTypeNameHistroy>

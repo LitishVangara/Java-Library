@@ -1,0 +1,9 @@
+package defaultConstructorWithoutArgument1;
+
+public class DCISC {
+	public DCISC() {}
+	DCISC()
+	{
+		System.out.println("Hai,Hello");
+	}
+}

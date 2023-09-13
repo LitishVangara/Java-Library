@@ -1,0 +1,15 @@
+package autoUnBoxingPrograms1;
+
+public class AutoUnBoxingExample 
+{
+	public static void main(String[] args) 
+	{
+		int a = 50;
+		System.out.println("Primitive : "+a);
+		Integer i = Integer.valueOf(a);
+		System.out.println("Non - Primitive Boxing : "+i.toString());
+		Integer i1 = a;
+		System.out.println("Non - Primitive AutoBoxing: "+i.toString());
+		
+	}
+}

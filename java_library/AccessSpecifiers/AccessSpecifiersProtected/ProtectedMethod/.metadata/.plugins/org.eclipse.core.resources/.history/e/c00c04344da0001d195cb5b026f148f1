@@ -1,0 +1,8 @@
+package protectedNonStaticMethod1;
+
+public class PTMIDC {
+	public static void main(String[] args) {
+		PTMISC1 o1 = new PTMISC1();
+		o1.display();
+	}
+}

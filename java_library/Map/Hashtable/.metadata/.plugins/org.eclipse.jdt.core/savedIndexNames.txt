@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\java\eclipse-workspace\java_library\Map\Hashtable\.metadata\.plugins\org.eclipse.jdt.core
+35317156.index
+1865797976.index
+3961102510.index

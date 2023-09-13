@@ -1,0 +1,9 @@
+package stringLiteralPrograms1;
+
+public class StringLiteral 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

@@ -1,0 +1,5 @@
+package userDefinedExceptionExamples2;
+
+public class PrimeNumberException {
+
+}

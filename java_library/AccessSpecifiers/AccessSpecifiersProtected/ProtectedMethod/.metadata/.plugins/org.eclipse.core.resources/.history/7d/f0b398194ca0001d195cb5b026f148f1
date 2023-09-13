@@ -1,0 +1,10 @@
+package protectedStaticMethod1;
+
+public class PTMISC1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
